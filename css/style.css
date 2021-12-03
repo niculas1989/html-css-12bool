@@ -12,4 +12,8 @@
     border: 1px solid white;
     height: 50px;
     background-color: dodgerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
