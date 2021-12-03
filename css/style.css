@@ -26,14 +26,9 @@
     padding-right: 10px;
 }
 
-.es2 {
+[class^='es'] {
     margin-top: 30px;
 }
 
-.es3 {
-    margin-top: 30px;
-}
 
-.es4 {
-    margin-top: 30px;
-}
+
