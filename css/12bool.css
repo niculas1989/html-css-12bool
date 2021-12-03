@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* ROW */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* COLUMN */
+/* Regole che accomunano tutte le colonne */
+
+[class^='col'] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+
+/* Si dividono lo spazio equamente */
+
+.col {
+    flex-grow: 1;
+}
+
+/* Colonne che occupano lo spazio che gli indico io - sempre sui 12esimi fatidici */
+
+.col-1 {
+    flex-basis: calc(100% / 12);
+    max-width: calc(100% / 12);
+}
+
+.col-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+
+.col-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
+
+.col-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
+
+.col-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
+
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex-basis: calc(100% / 12 * 7);
+    max-width: calc(100% / 12 * 7);
+}
+
+.col-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: calc(100% / 12 * 8);
+}
+
+.col-9 {
+    flex-basis: calc(100% / 12 * 9);
+    max-width: calc(100% / 12 * 9);
+}
+
+.col-10 {
+    flex-basis: calc(100% / 12 * 10);
+    max-width: calc(100% / 12 * 10);
+}
+
+.col-11 {
+    flex-basis: calc(100% / 12 * 11);
+    max-width: calc(100% / 12 * 11);
+}
+
+.col-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+/* OFFSET */
+
+.offset-1 {
+    margin-left: calc(100% / 12);
+}
+.offset-2 {
+    margin-left: calc(100% / 12 * 2);
+}
+.offset-3 {
+    margin-left: calc(100% / 12 * 3);
+}
+.offset-4 {
+    margin-left: calc(100% / 12 * 4);
+}
+.offset-5 {
+    margin-left: calc(100% / 12 * 5);
+}
+.offset-6 {
+    margin-left: calc(100% / 12 * 6);
+}
+.offset-7 {
+    margin-left: calc(100% / 12 * 7);
+}
+.offset-8 {
+    margin-left: calc(100% / 12 * 8);
+}
+.offset-9 {
+    margin-left: calc(100% / 12 * 9);
+}
+.offset-10 {
+    margin-left: calc(100% / 12 * 10);
+}
+.offset-11 {
+    margin-left: calc(100% / 12 * 11);
+}
+
+
+/* UTILITIES PER ALLINEAMENTO */
+
+.content-start {
+    justify-content: flex-start;
+    text-align: start;
+}
+
+.content-center {
+    justify-content: center;
+    text-align: center;
+}
+
+.content-end {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: flex-end;
+}
