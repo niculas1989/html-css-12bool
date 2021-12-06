@@ -22,13 +22,14 @@
     background-color: forestgreen;
     height: 30px;
     border: 1px solid dodgerblue;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 [class^='es'] {
     margin-top: 30px;
 }
 
-
+.col-big {
+    height: 100px;
+    background-color: dodgerblue;
+}
 
